@@ -1,4 +1,3 @@
-
 PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/moto/sunfire/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
@@ -149,6 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/moto/sunfire/proprietary/etc/ppp/peers/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options \
     vendor/moto/sunfire/proprietary/app/Usb.apk:system/app/Usb.apk \
+    vendor/moto/sunfire/proprietary/lib/rilwrap.so:system/lib/rilwrap.so \
 
 # system libs
 PRODUCT_COPY_FILES += \
