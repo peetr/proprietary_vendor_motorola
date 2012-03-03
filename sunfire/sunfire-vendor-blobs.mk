@@ -147,7 +147,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
     vendor/moto/sunfire/proprietary/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
     vendor/moto/sunfire/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
-    vendor/moto/sunfire/proprietary/etc/ppp/peers/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options
+    vendor/moto/sunfire/proprietary/etc/ppp/peers/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options \
+    vendor/moto/sunfire/proprietary/app/Usb.apk:system/app/Usb.apk \
 
 # system libs
 PRODUCT_COPY_FILES += \
