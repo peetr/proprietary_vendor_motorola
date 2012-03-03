@@ -149,6 +149,9 @@ PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/etc/ppp/peers/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options \
     vendor/moto/sunfire/proprietary/app/Usb.apk:system/app/Usb.apk \
     vendor/moto/sunfire/proprietary/lib/rilwrap.so:system/lib/rilwrap.so \
+    vendor/moto/sunfire/proprietary/xbin/hciconfig:system/xbin/hciconfig \
+    vendor/moto/sunfire/proprietary/xbin/hcidump:system/xbin/hcidump \
+    vendor/moto/sunfire/proprietary/xbin/hcitool:system/xbin/hcitool \
 
 # system libs
 PRODUCT_COPY_FILES += \
