@@ -148,10 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/moto/sunfire/proprietary/etc/ppp/peers/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options \
     vendor/moto/sunfire/proprietary/app/Usb.apk:system/app/Usb.apk \
-    vendor/moto/sunfire/proprietary/lib/rilwrap.so:system/lib/rilwrap.so \
-#   vendor/moto/sunfire/proprietary/xbin/hciconfig:system/xbin/hciconfig \
-#   vendor/moto/sunfire/proprietary/xbin/hcidump:system/xbin/hcidump \
-#   vendor/moto/sunfire/proprietary/xbin/hcitool:system/xbin/hcitool \
+    vendor/moto/sunfire/proprietary/lib/bluedroid.so:system/lib/bluedroid.so \
 
 # system libs
 PRODUCT_COPY_FILES += \
@@ -234,7 +231,8 @@ vendor/moto/sunfire/proprietary/bin/remountpds:system/bin/remountpds \
 vendor/moto/sunfire/proprietary/bin/slateipcd:system/bin/slateipcd \
 vendor/moto/sunfire/proprietary/bin/tcmd:system/bin/tcmd \
 vendor/moto/sunfire/proprietary/bin/tegrastats:system/bin/tegrastats \
-vendor/moto/sunfire/proprietary/bin/vpnclientpm:system/bin/vpnclientpm
+vendor/moto/sunfire/proprietary/bin/vpnclientpm:system/bin/vpnclientpm \
+vendor/moto/sunfire/proprietary/bin/vold:system/bin/vold
 
 # LIB
 PRODUCT_COPY_FILES += \
